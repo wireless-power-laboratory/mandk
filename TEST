@@ -1,0 +1,55 @@
+ Mutual Inductance Program V3.1
+ Copyright (c) 1998, 1999, 2000 by Mark S. Rzeszotarski, Ph.D.
+
+ Flat Spiral Primary Coil Geometry
+ Primary coil inside diameter (inches)=      1.000
+ Primary coil outside diameter (inches)=      1.150
+ Number of primary coil turns =      2.000
+ Wire diameter (inches)=      .5000
+
+ Solenoidal Secondary Coil Geometry
+ Secondary coil diameter (inches)=     2.000
+ Secondary coil height (inches)=       .025
+ Number of secondary coil turns =    40.000
+ Secondary coil wire diameter (inches)=      .3500
+
+ Calculational Results
+ Primary coil inductance in microhenries:  Lp =             .24
+ Secondary coil inductance in microhenries:  Ls =          269.06
+ Figure of Merit (square root of Ls/Lp) =     33.23
+ Primary coil wire length in feet =        .56
+ Secondary coil wire length in feet =      20.94
+ DC secondary resistance in ohms:       .00
+ Secondary coil distributed capacitance in picofarads:      5.08
+ (Medhurst formula, assumes one end of secondary is grounded)
+
+ Mutual Inductance Results
+ Position is the secondary coil bottom wire position in inches
+ above the bottom wire of the primary coil.
+ A negative value means the bottom wire of the
+ secondary is below the bottom wire of the primary.
+ A positive value means that the bottom wire of the
+ secondary is above the bottom wire of the primary coil.
+ M = Mutual Inductance in microhenries
+ K = Coefficient of Coupling: K =  M / square root ( Lp x Ls )
+
+           Position           M                K
+            4.000            .016           .0020
+
+
+ Operating Characteristics
+ Ctoroid is the added capacitance of the top terminal.
+ Fres is the resonant operating frequency in kilohertz.
+ Cpri is the required primary capacitance in nanofarads.
+ Zpri is the primary surge impedance in ohms.
+ Zsec is the secondary surge impedance in ohms.
+ Qsec is the secondary coil quality factor Q.
+ Rac is the secondary coil RF resistance in ohms.
+
+ Ctoroid(pF)    .0     5.0    10.0    15.0    20.0    25.0    30.0    35.0
+ Fres(kHz)  4304.9  3056.1  2498.6  2165.3  1937.5  1769.1  1638.2  1532.6
+ Cpri (nF)    5.61   11.13   16.65   22.17   27.69   33.21   38.73   44.25
+ Zpri(ohms)    6.6     4.7     3.8     3.3     3.0     2.7     2.5     2.3
+ Zsec(ohms)   7278.   5166.   4224.   3661.   3275.   2991.   2769.   2591.
+ Qsec       8970.8  7558.4  6834.3  6362.2  6018.2  5750.8  5533.9  5313.5
+ Rac (ohms)     .8      .7      .6      .6      .5      .5      .5      .5

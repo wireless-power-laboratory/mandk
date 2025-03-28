@@ -1,0 +1,18 @@
+MandK - Freeware mutual inductance calculation program by
+Mark S. Rzeszotarski, Ph.D.
+
+The file MandK.zip contains the following files in a ZIP archive:
+readme.1st - this file
+MandKV31.pdf - portable document file (PDF) program description
+MandK.exe - DOS/Windows compatible mutual inductance program
+MandK.ini - ASCII text initialization file (stores some default parameters)
+sample.dat - sample ASCII text file showing typical output data
+
+Unzipped files require about 550 kilobytes of hard disk space.  Place all files
+in a single folder on your hard drive.
+
+Print out all files except the executable and examine the content of
+each before attempting to use this program.  Documentation is brief and
+familiarity with tesla coil geometries is essential.  This is not a program
+for the newbie!
+
